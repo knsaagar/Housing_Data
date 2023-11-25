@@ -1,10 +1,11 @@
 -----------------------------------------------------------------------------------------------------------------------
 --Data Cleaning Steps
---Step1: Standardize SaleDate to date format which was in varchar format before.
+--Step 1: Standardize SaleDate to date format which was in varchar format before.
 --Step 2: Handle missing value of Property Address by populating it using the ParcelID which identifies the same house.
 --Step 3: Split the address column into individual address, State, City columns.
---Step4: Remove duplicate data to avoid skewness.
---Step5: Delete unused columns.
+--Step 4: Converting binary column "SoldAsVacant" from 'y', 'n' to 'Yes' and 'No'
+--Step 5: Remove duplicate data to avoid skewness.
+--Step 6: Delete unused columns.
 -----------------------------------------------------------------------------------------------------------------------
 
 --Check for sample data
