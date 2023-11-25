@@ -1,5 +1,6 @@
 -----------------------------------------------------------------------------------------------------------------------
---Data Cleaning Steps
+--Data Cleaning Steps -- Data set Link Kaggle: https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data/
+--Database used: Amazon Redshift - PostgreSQL
 --Step 1: Standardize SaleDate to date format which was in varchar format before.
 --Step 2: Handle missing value of Property Address by populating it using the ParcelID which identifies the same house.
 --Step 3: Split the address column into individual address, State, City columns.
